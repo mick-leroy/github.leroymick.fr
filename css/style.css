@@ -1,3 +1,71 @@
-* {
+html,
+div,
+span,
+object,
+iframe,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+del,
+em,
+img,
+small,
+strong,
+ol,
+ul,
+li,
+label,
+table {
+    border: 0;
+    vertical-align: baseline;
     margin: 0;
+    padding: 0
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%
+}
+
+body {
+    position: relative;
+    font: normal 16px/1.9em "Inter", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%
+}
+
+.no-scroll {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-style: normal;
+    font-size: 45px;
+    font-weight: normal;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    color: #c44736
+}
+
+a:hover {
+    color: #b84336
+}
+
+p {
+    margin-bottom: 2em
 }
