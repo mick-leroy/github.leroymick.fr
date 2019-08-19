@@ -36,7 +36,7 @@ html {
 
 body {
     position: relative;
-    font: normal 16px/1.8em "Inter", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font: normal 16px/1.7em "Inter", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -69,7 +69,7 @@ a:hover {
 }
 
 p {
-    margin-bottom: 1.8em
+    margin-bottom: 1.4em
 }
 
 .site_header {
@@ -80,15 +80,21 @@ p {
     left: 0;
     width: 100%;
     color: #a5acbb;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.site_header p {
+    margin: 0;
 }
 
 .site_header .menu {
     display: none;
 }
 
-.site_header p {
-    display: inline-block;
-    margin: auto;
+.site_header .right {
+    flex: 1 1;
+    text-align: right;
 }
 
 .site_content {
@@ -104,6 +110,14 @@ p {
 }
 
 .site_header + .site_content.full_height {
+    display: flex;
+    max-width: 100%;
+}
+
+.site_header + .site_content .content {
+    margin: auto;
+    text-align: center;
+    line-height: 1.3;
 }
 
 .site_content:nth-child(odd) {
@@ -120,23 +134,35 @@ p {
 }
 
 .site_footer h2 {
-    margin-top: 0.8em;
+    margin-top: 46px;
 }
 
 .site_footer span {
     display: inline-block;
 }
 
+.footer_col {
+    max-width: 640px;
+}
+
 .social {
-    font-size: 1.6em;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.5em;
     color: #fff;
+    display: flex;
 }
 
-.social i {
-    margin: 0 0.4em;
+.social a {
+    color: #fff;
+    position: relative;
+    line-height: 32px;
+    font-size: 32px;
 }
 
-.social i:first-of-type {
-    margin-left: 0;
+.social a + a {
+    margin-left: 0.5em;
+}
+
+.social svg {
+    width: 32px;
+    color: #fff;
 }
