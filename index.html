@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   
     <meta property="og:title" content="Mick A. Leroy">
     <meta property="og:description" content="SpinKit, Moving Letters, projects, and more.">
-    <meta property="og:url" content="http://git.leroymick.fr/">
+    <meta property="og:url" content="http://github.leroymick.fr/">
     <meta property="og:type" content="blog">
-    <meta property="og:image" content="http://git.leroymick.fr/static/-social/og_.jpg">
+    <meta property="og:image" content="http://github.leroymick.fr/static/-social/og_.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="627">
 
@@ -37,13 +38,16 @@
 <body>
     <div class="site_header">
         <div class="left">
-            <p>menu</p>
+            <p onclick="document.body.classList.toggle('menu_open')"><i class="fas fa-bars"></i></p>
         </div>
         <div class="right">
             <p>EN | FR</p>
         </div>
         <div class="menu">
-            ok
+            <ul>
+                <li>HOME</li>
+                <li>RESUME</li>
+            </ul>
         </div>
     </div>
     <div class="site_content full_height">
@@ -51,11 +55,23 @@
             <h1>MICK LEROY</h1>
         </div>
     </div>
+    <div class="site_content">
+        <div class="content">
+            <h2>Mick LEROY</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore modi voluptatum harum quo non neque est id maiores minus laudantium delectus, dolore perspiciatis labore deleniti corporis eligendi dolores ex similique?</p>
+        </div>
+    </div>
+    <div class="site_content">
+        <div class="content">
+            <h2>Mick LEROY</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio iure tenetur corrupti ex quisquam mollitia reiciendis magni, veniam aliquid, optio adipisci pariatur itaque impedit exercitationem. Ut iusto laboriosam laudantium voluptatem!</p>
+        </div>
+    </div>
     <div class="site_footer">
         <div class="footer_col">
             <h2>contact@leroymick.fr</h2>
             <br>
-            <p>I love to program and design things. Always on the cutting edge of the newest technologies. I'm currently working at tech support for <span>ccas-yvetot.fr</span> &amp; <span>yvetot-normandie.fr</span>.</p>
+            <p>I love to program and design things. Always on the cutting edge of the newest technologies. I'm currently working at <span>ccas-yvetot.fr</span> &amp; <span>yvetot-normandie.fr</span>.</p>
             <p>Mick Andrew Leroy<br>Yvetot, France</p>
             <div class="social">
                 <a href="https://www.linkedin.com/in/mick-leroy/" target="_blank">
@@ -70,5 +86,5 @@
             </div>
         </div>
     </div>
-
-</body></html>
+</body>
+</html>
