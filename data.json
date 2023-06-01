@@ -1,0 +1,9 @@
+{
+    "info": {
+        "author": "Mick LEROY"
+    },
+    "menu": [
+        {"title": "HOME", "url": ""},
+        {"title": "RESUME", "url": ""}
+    ]
+}
